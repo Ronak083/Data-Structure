@@ -9,4 +9,18 @@ public class BinaryHeap {
         this.sizeOfTree = 0;
         System.out.println("Binary Heap has been created");
     }
+
+    public boolean isEmpty(){
+        if (sizeOfTree ==0){
+            return true;
+        } else return false;
+    }
+    public Integer peek(){
+        if (isEmpty()){
+            System.out.println("Binary heap is Empty");
+            return null;
+        }
+        return arr[1];
+
+    }
 }
