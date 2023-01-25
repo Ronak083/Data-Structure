@@ -1,7 +1,5 @@
 package Data_Structures.Tree;
 
-import The_java.DrinkTree.tree;
-
 public  class Main {
     public static void main(String[] args) {
         tree drinks = new tree("Drinks");
