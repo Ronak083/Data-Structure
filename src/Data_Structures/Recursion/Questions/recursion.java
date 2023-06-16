@@ -1,5 +1,4 @@
-package Data_Structures.Recursion;
-import com.sun.tools.javac.Main;
+package Data_Structures.Recursion.Questions;
 
 public class recursion {
     public static void main(String[] args) {

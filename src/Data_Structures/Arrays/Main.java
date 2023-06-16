@@ -11,7 +11,7 @@ public class Main {
         array.Insert(3,4);
         array.Insert(4,5);
 
-        //array.Traverse();
+        //array.Traverse(array);
         //array.Search(4);
         //array.MissingNumber();
         //array.twosum(9);

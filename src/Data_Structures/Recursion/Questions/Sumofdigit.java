@@ -1,4 +1,4 @@
-package Data_Structures.Recursion;
+package Data_Structures.Recursion.Questions;
 
 public class Sumofdigit {
     public static void main(String[] args) {
