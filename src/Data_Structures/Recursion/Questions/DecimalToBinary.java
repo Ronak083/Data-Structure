@@ -5,7 +5,7 @@ public class DecimalToBinary {
 
     public static void main(String[] args) {
         DecimalToBinary recursion = new DecimalToBinary();
-        var rec = recursion.function(10);
+        var rec = recursion.function(8);
         System.out.println(rec);
     }
     public int function(int n){
