@@ -12,23 +12,18 @@ public class Main {
         array.Insert(4,5);
 
         //array.Traverse(array);
-        //array.Search(4);
-        //array.MissingNumber();
-        //array.twosum(9);
-        //array.delete(4);
+        array.Search(4);
+        array.delete(4);
         array.unique();
-        array.MaxProduct();
 
 
-        //TwoDA Newarray = new TwoDA(3,3);
-        //for(int i =0; i<Newarray.arr.length;i++){
-        //    for(int j =0; j<Newarray.arr[0].length;j++){
-        //        Newarray.insert(i,j, sc.nextInt());
-        //    }
-        //}
-        //Newarray.Traverse();
-        //Newarray.RotateMatrix();
-        //Newarray.Traverse();
+        TwoDA Newarray = new TwoDA(3,3);
+        for(int i =0; i<Newarray.arr.length;i++){
+            for(int j =0; j<Newarray.arr[0].length;j++){
+                Newarray.insert(i,j, sc.nextInt());
+            }
+        }
+        Newarray.Traverse();
 
 
     }

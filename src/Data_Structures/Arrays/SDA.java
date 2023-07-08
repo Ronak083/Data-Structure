@@ -20,7 +20,7 @@ public class SDA {
             System.out.println("Invalid Location");
         }
     }
-    public void Traverse(){
+    public void Traverse(int[] arr){
         try{
             for (int i =0 ; i< arr.length;i++){
                 System.out.print(arr[i] + " ");
@@ -41,16 +41,7 @@ public class SDA {
         arr[location] = 0;
         System.out.println("Delete Successfully");
     }
-    public int[] twosum(int target) {
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = i + 1; j < arr.length; j++) {
-                if (arr[i] + arr[j] == target) {
-                    return new int[] {i, j};
-                }
-            }
-        }
-        throw new IllegalArgumentException("Not found");
-    }
+
     public void MissingNumber(){
         int Sum1 = 0;
         int Sum2 = 0;
@@ -73,19 +64,6 @@ public class SDA {
         if (tr) System.out.println("Unique Array");
         else System.out.println("Not Unique Array");
     }
-    public void MaxProduct(){
-        int max = 0;
-        String pairs = "";
 
-        for(int i =0;i<arr.length;i++){
-            for(int j =i+1;j<arr.length;j++){
-                if(arr[i]*arr[j]>max){
-                    max = arr[i]*arr[j];
-                    pairs = arr[i] +","+arr[j];
-                }
-            }
-        }
-        System.out.println(pairs +" that is "+ max);
-    }
 
 }

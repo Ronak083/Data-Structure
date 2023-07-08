@@ -41,22 +41,4 @@ public class TwoDA {
             }
         }
     }
-    public void RotateMatrix(){
-
-        //Edges
-        int temp = arr[0][0];
-        arr[0][0] = arr[2][0];
-        arr[2][0] = arr[2][2];
-        arr[2][2] = arr[0][2];
-        arr[0][2] = temp;
-        //Centers
-        temp = arr[0][1];
-        arr[0][1] = arr[1][0];
-        arr[1][0] = arr[2][1];
-        arr[2][1] = arr[1][2];
-        arr[1][2] = temp;
-
-        System.out.println("Matrix Successfully Rotated by 90' ");
-
-    }
 }
