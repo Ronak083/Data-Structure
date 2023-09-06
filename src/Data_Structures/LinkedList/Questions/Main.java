@@ -23,10 +23,6 @@ public class Main {
         //Partition
         LinkedList t = q.partition(ll,4);
         t.traversalLL();
-
-
-
-
     }
 
 
