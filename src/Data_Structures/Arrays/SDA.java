@@ -1,11 +1,16 @@
 package Data_Structures.Arrays;
 
 public class SDA {
+
+    //Initialize
     int[] arr = null;
+    //Constructor
     public SDA(int Size){
         arr = new int[Size];
         System.out.println("1D Array Created Successfully");
     }
+
+    //Insertion of Array
     public void Insert(int location, int value) {
         try {
             if (arr[location] == 0) {
@@ -20,6 +25,8 @@ public class SDA {
             System.out.println("Invalid Location");
         }
     }
+
+    //Printing an Array
     public void Traverse(int[] arr){
         try{
             for (int i =0 ; i< arr.length;i++){
@@ -30,6 +37,8 @@ public class SDA {
             System.out.println("Array not exist");
         }
     }
+
+    //Searching in array
     public void Search(int value){
         for (int i =0 ; i<arr.length; i++){
             if (arr[i]== value){
@@ -37,6 +46,8 @@ public class SDA {
             }
         }
     }
+
+    //Outting NUll at given location
     public void delete(int location){
         arr[location] = 0;
         System.out.println("Delete Successfully");
