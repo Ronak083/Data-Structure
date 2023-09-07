@@ -16,11 +16,9 @@ After (n-1) iteration, the whole array will be sorted.*/
                     temp = arr[j];
                     arr[j] = arr[j+1];
                     arr[j+1] = temp ;
-
                 }
             }
         }
-
         /*Time complexity: O(N2/2 + n/2) ~= O(N2), (where N = size of the array), for the worst, and average cases.
         Space Complexity: O(1)*/
     }

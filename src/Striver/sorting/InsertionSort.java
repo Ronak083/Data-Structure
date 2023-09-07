@@ -24,8 +24,8 @@ The “inner while loop” basically shifts the elements using swapping.*/
 
         sort(arr);
 
-        for(int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i]);
+        for (int j : arr) {
+            System.out.print(j);
         }
     }
 }
