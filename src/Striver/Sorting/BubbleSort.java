@@ -1,4 +1,4 @@
-package Striver.sorting;
+package Striver.Sorting;
 
 public class BubbleSort {
     public static void sort(int[] arr){

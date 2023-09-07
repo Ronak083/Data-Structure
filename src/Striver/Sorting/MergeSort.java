@@ -1,4 +1,4 @@
-package Striver.sorting;
+package Striver.Sorting;
 
 import java.util.ArrayList;
 
